@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.nav-items > ul {
+  display: flex;
+}
+
+.nav-items > ul > li {
+  list-style: none;
+  padding-right: 30px;
+  font-size: larger;
+}
+
+.logo {
+  width: 100px;
+  height: 100%;
+}
