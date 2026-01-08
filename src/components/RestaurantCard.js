@@ -1,12 +1,17 @@
-const RestaurantCard = () => {
+import { Restaurant_IMG_URL } from "../Utils/constants";
+const RestaurantCard = (props) => {
   return (
     <div className="res-card">
-      <img src="null" alt="resimage" />
-      <h4>ResName</h4>
-      <h4>Rating</h4>
-      <h4>cuisines</h4>
-      <h4>deliverytime</h4>
-      <h4>cost for two</h4>
+      <img
+        src={Restaurant_IMG_URL + "" + props.cloudinary_Img}
+        alt="resimage"
+        className="resimage"
+      />
+      <h4>{props.name}</h4>
+      <h4>{props.avgRating}</h4>
+      <h4>{props.cuisines}</h4>
+      <h4>{props.deliveryTime}</h4>
+      <h4>{props.costForTwo}</h4>
     </div>
   );
 };
