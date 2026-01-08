@@ -3,7 +3,6 @@
   background-color: aquamarine;
   justify-content: space-between;
   width: 100%;
-  border: 1px solid black;
 }
 
 .nav-items {
@@ -18,17 +17,13 @@
 
 .nav-items > ul > li {
   list-style: none;
-  padding-right: 30px;
+  padding-right: 10px;
   font-size: larger;
 }
 
 .logo {
   width: 125px;
   height: 100%;
-}
-
-.body {
-  border: 1px solid black;
 }
 
 .search-container {
