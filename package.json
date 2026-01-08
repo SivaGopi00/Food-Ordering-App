@@ -1,0 +1,23 @@
+{
+  "name": "foor-ordering-app",
+  "version": "1.0.0",
+  "description": "Food Ordering App",
+  "homepage": "https://github.com/SivaGopi00/Food-Ordering-App#readme",
+  "bugs": {
+    "url": "https://github.com/SivaGopi00/Food-Ordering-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SivaGopi00/Food-Ordering-App.git"
+  },
+  "license": "ISC",
+  "author": "SivaGopi",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
