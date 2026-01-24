@@ -55,3 +55,44 @@
 .res-card:hover {
   background-color: rgb(225, 207, 207);
 }
+
+.restaurantmenupage {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resdetails {
+  border: 1px solid black;
+  margin: 5px;
+  gap: 10px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cuisinecard {
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dishcontainer {
+  padding-left: 10px;
+  margin: 0px;
+}
+.cuisineimage {
+  width: 200px;
+  padding-right: 10px;
+  display: flex;
+  text-align: center;
+}
+
+.cuisineimagecontainer {
+  display: flex;
+  align-items: center;
+}

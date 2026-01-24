@@ -2,8 +2,9 @@ import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header";
 import "./index.css";
 import Body from "./src/components/Body";
-import MenuPage from "./src/pages/MenuPage";
+import RestaurantMenuPage from "./src/pages/RestaurantMenuPage";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router";
+import ContactUs from "./src/components/ContactUs";
 const AppLayout = () => {
   return (
     <div className="App">
@@ -19,13 +20,14 @@ const appRouter = createBrowserRouter([
     element: <AppLayout />,
     children: [
       {
-        path: "/restaurant",
-        element: <MenuPage />,
+        path: "/restaurants/:resId",
+        element: <RestaurantMenuPage />,
       },
       {
         path: "/",
         element: <Body />,
       },
+      { path: "/contactus", element: <ContactUs /> },
     ],
   },
 ]);

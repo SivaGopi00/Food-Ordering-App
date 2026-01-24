@@ -13,9 +13,14 @@ const Header = () => {
           </li>
           <li>AboutUs</li>
           <li>
-            <Link to="restaurant">RestaurantMenu</Link>
+            <Link to="/contactus">Contact Us</Link>
+          </li>
+          <li>Grocery</li>
+          <li>
+            <Link to="/restaurants">RestaurantMenu</Link>
           </li>
           <li>Cart</li>
+          <li>Login</li>
         </ul>
       </div>
     </div>

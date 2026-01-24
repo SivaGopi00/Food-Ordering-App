@@ -3,7 +3,10 @@ const RestaurantCard = (props) => {
   return (
     <div className="res-card">
       <img
-        src={Restaurant_IMG_URL + "" + props.cloudinary_Img}
+        src={
+          Restaurant_IMG_URL + "" + props.cloudinary_Img ||
+          "https://www.pexels.com/photo/white-and-brown-cooked-dish-on-white-ceramic-bowls-958545/"
+        }
         alt="resimage"
         className="resimage"
       />
